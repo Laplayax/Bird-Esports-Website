@@ -1,6 +1,6 @@
-import React from "react"
-import { graphql, navigate, StaticQuery } from "gatsby"
-import "./featured.css"
+import React from 'react';
+import { graphql, navigate, StaticQuery } from 'gatsby';
+import './featured.css';
 
 export default () => (
   <StaticQuery
@@ -36,18 +36,17 @@ export default () => (
               className="header__hero"
               onClick={() => navigate(`/articles/${edge.node.slug}`)}
               style={{
-                backgroundImage: `url(${edge.node.featuredImage.fluid.src})`,
+                backgroundImage: `url(${edge.node.featuredImage.fluid.src})`
               }}
             />
             <div className="header__content">
               <div className="header__info">
-                <h1 className="header__title">{edge.node.title}</h1>
                 <p className="header__subtitle">{edge.node.shortDescription}</p>
                 <button
                   onClick={() => navigate(`/articles/${edge.node.slug}`)}
                   className="articles-header-btn"
                 >
-                  Read More >
+                  Read More
                 </button>
               </div>
             </div>
@@ -56,4 +55,4 @@ export default () => (
       </header>
     )}
   />
-)
+);

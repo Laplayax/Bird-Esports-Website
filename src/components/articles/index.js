@@ -42,15 +42,12 @@ class ArticlesList extends Component {
                     onClick={() => navigate(`/articles/${edge.node.slug}`)}
                     className="articles-col"
                   >
-                    <div className="articles-card">
-                      <div
-                        className="articles-image"
-                        style={{
-                          backgroundImage: `url(${edge.node.featuredImage.fluid.src})`
-                        }}
-                      ></div>
-                      <div className="articles-title">{edge.node.title}</div>
-                    </div>
+                    <div
+                      className="articles-card"
+                      style={{
+                        backgroundImage: `url(${edge.node.featuredImage.fluid.src})`
+                      }}
+                    ></div>
                   </Col>
                 ))}
               </Row>

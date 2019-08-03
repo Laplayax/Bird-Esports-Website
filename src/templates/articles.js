@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Nav from '../components/nav';
 import SEO from '../components/seo';
 import BG from '../images/bg.png';
+import Footer from '../components/footer';
 import './articles.css';
 
 const ArticlesTemplate = props => {
@@ -33,6 +34,7 @@ const ArticlesTemplate = props => {
           />
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };
