@@ -10,7 +10,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Apex from '../images/apex_team.png';
 import GoingForward from '../images/going_forward.png';
 
-import Communication from '../images/Communication.svg';
+import Communication from '../images/communication.svg';
 import Fun from '../images/fun.svg';
 import Trust from '../images/trust.svg';
 import DriveChange from '../images/drive_change.svg';
