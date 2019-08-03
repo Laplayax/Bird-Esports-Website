@@ -79,13 +79,13 @@
     display: block;
     margin-top: 20px;
     width: 100%;
-    height: auto;
+    height: 500px;
     padding-bottom: 10px;
   }
 
   .social-wrap-bottom {
     width: calc(100% - 20px);
-    margin-top: 340px;
+    margin-top: 550px;
     display: block;
     padding-bottom: 20px;
   }

@@ -63,10 +63,11 @@
 @media (max-width: 1000px) {
   .featured_header_wrap {
     width: auto;
+    margin-top: 70px;
   }
 
   .header__hero {
-    width: 90%;
+    width: 100%;
   }
 
   .header__content {

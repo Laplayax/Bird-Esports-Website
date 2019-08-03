@@ -112,8 +112,8 @@
 
   .join-us-image {
     float: none;
-    margin-top: -30px;
-    margin-bottom: -50px;
+    margin-top: 0px;
+    margin-bottom: -20px;
     margin-right: 0;
     margin-left: calc(50% - 175px);
   }
