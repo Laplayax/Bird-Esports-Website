@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
 import SEO from '../components/seo';
-import BG from '../images/bg.png';
+import Background from '../components/background';
 import Footer from '../components/footer';
 import './articles.css';
 
@@ -15,7 +15,7 @@ const ArticlesTemplate = props => {
         description={props.data.contentfulArticle.seoDescription}
         keywords={props.data.contentfulArticle.seoKeywords}
       />
-      <img className="body_bg_img" src={BG} />
+      <Background />
       <Nav />
       <div className="blog__header">
         <div
