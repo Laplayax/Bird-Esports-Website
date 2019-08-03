@@ -24,14 +24,20 @@
   scroll-snap-type: x proximity;
 }
 
+.artbox-cut {
+  width: 250px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
 .artbox_item {
   margin-top: 6px;
-  height: 120px;
+  width: 250px;
   cursor: pointer;
   border: 0;
   background: rgb(24, 41, 55);
   color: white;
-  border-radius: 5px;
 
   text-align: center;
 }
