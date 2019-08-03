@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
-import BG from '../images/bg.png';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
 import { Link } from 'gatsby';
+import Background from '../components/background';
 
 import './faq.css';
 
@@ -13,12 +13,14 @@ class FAQ extends Component {
     return (
       <Layout>
         <SEO title="Help & FAQ" description="Contact TBE" />
-        <img className="body_bg_img" src={BG} />
+        <Background />
         <Nav />
         <div className="faq-wrap">
           <div className="faq-header">Help and FAQ</div>
           <div className="faq-text">
-            <h2 className="faq-sub-title">Why do trainees have to sign a contract?</h2>
+            <h2 className="faq-sub-title">
+              Why do trainees have to sign a contract?
+            </h2>
             <p className="faq-paragraph">
               One concern of ours is that recruits will not be entirely honest
               with us in how committed they are to joining TBE. That concern is
@@ -33,7 +35,9 @@ class FAQ extends Component {
               discourages those that have no real interest in the community.
             </p>
 
-            <h2 className="faq-sub-title">Why do trainees have to pay a contract fee?</h2>
+            <h2 className="faq-sub-title">
+              Why do trainees have to pay a contract fee?
+            </h2>
             <p className="faq-paragraph">
               Very similarly to the prior question, the contract fee is meant to
               discourage those that are uncertain about whether or not they can
@@ -52,7 +56,9 @@ class FAQ extends Component {
               will sit untouched on a sub-account with your name tag on it.
             </p>
 
-            <h2 className="faq-sub-title">What does a trainee contract really look like?</h2>
+            <h2 className="faq-sub-title">
+              What does a trainee contract really look like?
+            </h2>
             <p className="faq-paragraph">
               Our trainee contracts are fairly short (3 pages) documents, which
               mainly focus on establishing a proper relationship between the
@@ -84,7 +90,9 @@ class FAQ extends Component {
               necessary.{' '}
             </p>
 
-            <h2 className="faq-sub-title">What kind of activities do you do on TBE?</h2>
+            <h2 className="faq-sub-title">
+              What kind of activities do you do on TBE?
+            </h2>
             <p className="faq-paragraph">
               Our usual weekly activities will mostly include inhouse games,
               courses lead by coaches, and opportunities for training groups and
@@ -114,7 +122,9 @@ class FAQ extends Component {
               to improve and find better ways to present their knowledge.
             </p>
 
-            <h2 className="faq-sub-title">Why can’t I find a link to your discord server?</h2>
+            <h2 className="faq-sub-title">
+              Why can’t I find a link to your discord server?
+            </h2>
             <p className="faq-paragraph">
               Our discord server is meant to be a private space, in which our
               players can truly feel comfortable and at home. We think that a
@@ -135,7 +145,9 @@ class FAQ extends Component {
               to do so.
             </p>
 
-            <h2 className="faq-sub-title">Does TBE have its own league/tournament?</h2>
+            <h2 className="faq-sub-title">
+              Does TBE have its own league/tournament?
+            </h2>
             <p className="faq-paragraph">
               Bird Esports does not currently host its own regular league or
               tournament, nor are we planning to do so in the near future. Our

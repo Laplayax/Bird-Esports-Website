@@ -1,0 +1,16 @@
+.not-found-wrap {
+  color: white;
+  width: 1000px;
+  margin: 0 auto;
+  height: 800px;
+}
+.not-found {
+  margin-top: 90px;
+}
+
+@media (max-width: 1000px) {
+  .not-found-wrap {
+    width: 90%;
+    margin-left: 10px;
+  }
+}

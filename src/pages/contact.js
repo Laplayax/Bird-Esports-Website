@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
-import BG from '../images/bg.png';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
 import { Link } from 'gatsby';
+import Background from '../components/background';
 
 import './contact.css';
 
@@ -13,7 +13,7 @@ class Contact extends Component {
     return (
       <Layout>
         <SEO title="Contact" description="Contact TBE" />
-        <img className="body_bg_img" src={BG} />
+        <Background />
         <Nav />
         <div className="contact-us-wrap">
           <div className="contact-us-header">Contact Us</div>

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { graphql, navigate, StaticQuery, Link } from 'gatsby';
+import { graphql, StaticQuery, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import SEO from '../components/seo';
+import Background from '../components/background';
 
 import twitter from '../images/Twitter_grey.svg';
 import youtube from '../images/Youtube_grey.svg';
 import twitch from '../images/Twitch_grey.svg';
-import BG from '../images/bg.png';
 import './team.css';
 
 class Team extends Component {
@@ -18,7 +18,7 @@ class Team extends Component {
       <div>
         <Layout>
           <SEO title="Team" />
-          <img className="body_bg_img" src={BG} />
+          <Background />
           <Nav />
           <StaticQuery
             query={graphql`

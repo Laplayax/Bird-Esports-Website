@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 import Nav from '../components/nav';
-import BG from '../images/bg.png';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
+import Background from '../components/background';
 
 import './privacy.css';
 
@@ -12,7 +12,7 @@ class Privacy extends Component {
     return (
       <Layout>
         <SEO title="Privacy Policy" description="Contact TBE" />
-        <img className="body_bg_img" src={BG} />
+        <Background />
         <Nav />
         <div className="privacy-container">
           <div className="privacy-header">Privacy Policy of bird.gg</div>

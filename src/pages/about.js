@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
-import BG from '../images/bg.png';
+import Background from '../components/background';
 import { Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -22,7 +22,7 @@ import './about.css';
 const About = () => (
   <Layout>
     <SEO title="About" description="Description of the TBE TEAM" />
-    <img className="body_bg_img" src={BG} />
+    <Background />
     <Nav />
     <div className="about-wrapper">
       <div className="story-wrapper">

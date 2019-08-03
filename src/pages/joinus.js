@@ -3,10 +3,9 @@ import Layout from '../components/layout';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
-import { Link } from 'gatsby';
+import Background from '../components/background';
 
 import Join from '../images/join-image.png';
-import BG from '../images/bg.png';
 import Arrow from '../images/right-arrow.svg';
 
 import './joinus.css';
@@ -14,7 +13,7 @@ import './joinus.css';
 const JoinUs = () => (
   <Layout>
     <SEO title="Join Us" description="Contact TBE" />
-    <img className="body_bg_img" src={BG} />
+    <Background />
     <Nav />
     <div className="contact-wrap">
       <div className="contact__form">
