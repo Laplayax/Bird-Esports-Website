@@ -65,12 +65,18 @@
 }
 
 @media (max-width: 1000px) {
-  .calendar-mobile-mask {
+  /* .calendar-mobile-mask {
     width: 100%;
     margin: 0 auto;
     padding-left: 10px;
 
     overflow-x: scroll;
     scroll-snap-type: x proximity;
+  } */
+
+  .calendar_div {
+    width: calc(100% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
