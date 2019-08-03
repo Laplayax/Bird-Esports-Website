@@ -71,20 +71,24 @@
 
   .social-twitter-wrap {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 20px;
   }
 
   .social-twitch-wrap {
     display: block;
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 500px;
     padding-bottom: 10px;
   }
 
   .social-wrap-bottom {
-    width: calc(100% - 20px);
+    width: calc(90% - 20px);
+    margin-left: calc(5% + 10px);
     margin-top: 550px;
     display: block;
     padding-bottom: 20px;

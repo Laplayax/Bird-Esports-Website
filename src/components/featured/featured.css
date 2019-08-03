@@ -56,11 +56,21 @@
 
 @media (max-width: 750px) {
   .featured_header_wrap {
-    margin-top: 70px;
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .header__hero {
+    width: 100%;
+  }
+
+  .header__content {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 750px) {
   .featured_header_wrap {
     width: auto;
     margin-top: 70px;
