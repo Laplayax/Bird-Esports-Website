@@ -25,20 +25,19 @@
 }
 
 .artbox-cut {
+  margin-top: 6px;
   width: 250px;
   height: 120px;
+  border-radius: 10px;
   overflow: hidden;
-  border-radius: 5px;
 }
 
 .artbox_item {
-  margin-top: 6px;
   width: 250px;
   cursor: pointer;
   border: 0;
   background: rgb(24, 41, 55);
   color: white;
-
   text-align: center;
 }
 
