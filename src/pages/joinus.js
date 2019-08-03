@@ -43,6 +43,7 @@ const JoinUs = () => (
           <form
             method="post"
             name="contact"
+            action="/sent"
             data-netlify="true"
             netlify-honeypot="bot"
           >
@@ -65,10 +66,10 @@ const JoinUs = () => (
               ></textarea>
             </div>
             <div className="submit-wrap">
-              <Link className="join-us-submit" to="/sent">
+              <button className="join-us-submit">
                 Send
                 <img src={Arrow} alt="" className="join-us-arrow" />
-              </Link>
+              </button>
             </div>
           </form>
         </div>
