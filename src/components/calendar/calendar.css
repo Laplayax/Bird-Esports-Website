@@ -1,0 +1,76 @@
+.calendar_div {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+
+  background-color: rgb(18, 25, 38, 0.6);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.calendar-table {
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: rgb(43, 59, 80);
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.calendar-top-tablerow-upcoming {
+  color: rgb(255, 246, 132);
+  font-size: 14px;
+}
+
+.calendar-image {
+  width: 20px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+
+.calendar-image-svg {
+  height: 15px;
+  width: 15px;
+  margin-top: -2px;
+  margin-right: 16px;
+}
+
+.calendar-event-text {
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+.calendar-event-date {
+  vertical-align: top;
+}
+
+.calendar-top-tablerow {
+  color: white;
+  background: rgb(18, 25, 38, 0.5);
+  font-size: 13px;
+  height: 65%;
+}
+
+.calendar-bottom-tablerow {
+  color: rgb(167, 167, 167);
+  background: rgb(18, 25, 38, 0.5);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .calendar_div {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .calendar-mobile-mask {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+}

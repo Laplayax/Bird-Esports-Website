@@ -1,0 +1,136 @@
+.contact-wrap {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.join-us-grey-text {
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 16px;
+}
+
+.join-us-text-wrap {
+  width: 450px;
+  display: inline-block;
+  /* background: blue; */
+}
+
+.join-us-title {
+  color: white;
+}
+
+.join-us-image {
+  width: 350px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 120px;
+}
+
+.inner {
+  margin-top: 50px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field__hidden {
+  display: none;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(14, 23, 29);
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+  font-family: Muli, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.field input {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.field textarea {
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.field label {
+  font-family: Muli, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border: 1px solid #fff684;
+}
+
+.submit-wrap {
+  float: right;
+}
+
+.join-us-submit {
+  background-color: #fff684;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.join-us-arrow {
+  height: 12px;
+  margin-left: 5px;
+}
+
+@media (max-width: 1000px) {
+  .contact-wrap {
+    width: 100%;
+    padding-left: 20px;
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+
+  .join-us-text-wrap {
+    width: calc(100% - 20px);
+  }
+
+  .join-us-image {
+    float: none;
+    margin-top: -30px;
+    margin-bottom: -50px;
+    margin-right: 0;
+    margin-left: calc(50% - 175px);
+  }
+
+  .field input,
+  .field textarea {
+    width: calc(100% - 20px);
+  }
+
+  .join-us-submit {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .join-us-image {
+    margin-left: 0;
+    width: 90%;
+  }
+}

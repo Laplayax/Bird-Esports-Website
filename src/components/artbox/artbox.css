@@ -1,0 +1,62 @@
+.artbox_box {
+  width: 100%;
+  height: 140px;
+
+  border-top: 1px solid rgb(112, 112, 112);
+  border-bottom: 1px solid rgb(112, 112, 112);
+  background-color: rgb(18, 25, 38);
+  padding: 0;
+  margin: 0;
+}
+
+.artbox_container {
+  width: 1000px;
+  height: 140px;
+  margin-left: calc((100% - 1000px) / 2);
+  padding: 0;
+
+  display: grid;
+
+  grid-column-gap: 15px;
+  grid-template-columns: repeat(8, 250px);
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+}
+
+.artbox_item {
+  margin-top: 6px;
+  height: 120px;
+  cursor: pointer;
+  border: 0;
+  background: rgb(24, 41, 55);
+  color: white;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+/* .artbox_item:hover {
+  border: 1px solid #fff684;
+} */
+
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space */
+  height: 0px;
+  background: transparent; /* optional: just make scrollbar invisible */
+}
+
+@media (min-width: 1556px) {
+  .artbox_item {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .artbox_container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

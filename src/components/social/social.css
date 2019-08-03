@@ -1,0 +1,92 @@
+.social-wrap {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.social-twitter-wrap {
+  background-color: rgb(18, 25, 38, 0.6);
+  width: 325px;
+  height: 430px;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: bottom;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.social-twitter-icon {
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  width: 25px;
+}
+
+.social-twitch-wrap {
+  background-color: rgb(18, 25, 38, 0.6);
+  width: 655px;
+  height: 430px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+  top: 0;
+}
+
+.social-twitch-icon {
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  width: 25px;
+}
+
+.social-twitch-stream {
+  margin-top: 55px;
+}
+
+.social-wrap-bottom {
+  width: 1000px;
+  height: 500px;
+  margin: 20px auto;
+  background-color: rgb(18, 25, 38, 0.6);
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.social-youtube-icon {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  width: 30px;
+}
+
+@media (max-width: 1000px) {
+  .social-wrap {
+    width: calc(100% - 20px);
+  }
+
+  .social-twitter-wrap {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .social-twitch-wrap {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .social-wrap-bottom {
+    width: calc(100% - 20px);
+    margin-top: 340px;
+    display: block;
+    padding-bottom: 20px;
+  }
+}

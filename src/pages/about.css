@@ -1,0 +1,195 @@
+.about-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.about-grey-text {
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+}
+
+/* --------------------------About Us--------------------------- */
+.story-wrapper {
+  margin-top: 80px;
+  color: white;
+  vertical-align: center;
+}
+
+.about-title {
+  width: 350px;
+  font-weight: 500;
+}
+
+.our-story-text {
+  display: inline-block;
+  width: 460px;
+}
+
+.our-story-image {
+  width: 500px;
+  vertical-align: center;
+  float: right;
+  margin-top: 40px;
+}
+
+/* ----------------------------Values--------------------------- */
+
+.value-wrapper {
+  color: white;
+  margin-top: 100px;
+}
+
+.value-title {
+  width: 350px;
+  font-weight: 500;
+}
+
+.about-table {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.about-table-head {
+  width: 33%;
+  margin: 30px auto 30px;
+}
+
+.about-table-item-text {
+  font-weight: lighter;
+  margin: 0 auto;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+  width: 250px;
+}
+
+.value-subtitle {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.about-values-icon {
+  width: 35px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+/* -------------------------Your Route----------------------- */
+
+.going-forward-wrapper {
+  color: white;
+  margin-top: 100px;
+}
+
+.going-forward-text {
+  display: inline-block;
+  width: 460px;
+  float: right;
+  margin-top: -25px;
+}
+
+.going-forward-image {
+  width: 450px;
+  display: inline-block;
+}
+
+.about-banner-joinus {
+  height: 100%;
+  margin-top: 20px;
+  float: right;
+  text-align: center;
+}
+
+.about-banner-link {
+  font-size: 12px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fff684;
+  background: #172233;
+  border-radius: 5px;
+  padding: 5px 15px;
+
+  position: relative;
+}
+
+/* -------------------------MOBILE----------------------- */
+
+@media (max-width: 1000px) {
+  .about-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .story-wrapper {
+    margin-top: 45px;
+  }
+
+  .our-story-text {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .our-story-image {
+    margin-left: calc(50% - 250px);
+    margin-right: 20px;
+    float: none;
+    margin-top: 0px;
+  }
+
+  .value-wrapper {
+    margin-top: 50px;
+  }
+
+  .value-title {
+    margin-left: 20px;
+  }
+
+  .about-table {
+    margin-top: 20px;
+  }
+
+  .going-forward-wrapper {
+    margin-top: 50px;
+  }
+
+  .going-forward-image {
+    margin-left: calc(50% - 225px);
+    margin-bottom: 30px;
+  }
+
+  .going-forward-text {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    float: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-table {
+    text-align: center;
+  }
+
+  .value-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .our-story-image {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .going-forward-image {
+    width: 100%;
+    margin-left: 0;
+  }
+}

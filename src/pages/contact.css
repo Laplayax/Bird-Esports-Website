@@ -1,0 +1,40 @@
+.contact-us-wrap {
+  width: 1000px;
+  margin: 90px auto;
+}
+
+.contact-us-header {
+  color: white;
+  font-size: 41px;
+  width: 203px;
+}
+
+.contact-text {
+  margin-top: 20px;
+  height: calc(100vh - 500px);
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+}
+
+.contact-email-link {
+  color: #FFF684 ;
+}
+
+@media (max-width: 750px) {
+  .contact-us-wrap {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 65px auto;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 750px) {
+  .contact-us-wrap {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 90px auto;
+  }
+}

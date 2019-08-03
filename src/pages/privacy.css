@@ -1,0 +1,46 @@
+.privacy-container {
+  color: white;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.privacy-container p {
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+}
+
+.privacy-container li {
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+}
+
+.privacy-header {
+  color: white;
+  font-size: 41px;
+  margin-bottom: 35px;
+}
+
+.privacy-link {
+  color: rgb(167, 167, 167);
+}
+
+@media (max-width: 750px) {
+  .privacy-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 65px auto;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 750px) {
+  .privacy-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 90px auto;
+  }
+}

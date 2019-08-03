@@ -1,0 +1,71 @@
+.banner_box {
+  width: 1000px;
+  height: 100px;
+
+  margin: 0 auto;
+  padding: 0;
+}
+
+.banner_banner {
+  float: left;
+}
+
+.banner_xara {
+  float: right;
+}
+
+.banner_img_xara {
+  height: 100px;
+}
+
+.banner_separator {
+  width: 15px;
+  margin-right: 5px;
+  height: 100%;
+  float: right;
+}
+
+.banner_separator_line {
+  margin: 0 auto;
+  margin-top: 35px;
+  height: 50px;
+  width: 2px;
+  background: grey;
+}
+
+.banner_joinus {
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+.banner_joinus--link {
+  font-size: 12px;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fff684;
+  background: #172233;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 0;
+
+  position: relative;
+  top: 50px;
+}
+
+.banner-bird-text {
+  color: white;
+  font-weight: bold;
+  font-size: 90px;
+  width: 500px;
+  margin-top: -8px;
+  display: inline-block;
+}
+
+@media (max-width: 1000px) {
+  .banner_box {
+    width: 100%;
+    padding-right: 20px;
+  }
+}

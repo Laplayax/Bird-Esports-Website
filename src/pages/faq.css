@@ -1,0 +1,42 @@
+.faq-wrap {
+  width: 1000px;
+  margin: 90px auto;
+  color: white;
+}
+
+.faq-header {
+  color: white;
+  font-size: 41px;
+}
+
+.faq-sub-title {
+  margin-top: 40px;
+}
+
+.faq-link {
+  color: rgb(255, 246, 132);
+}
+
+.faq-paragraph {
+  font-weight: lighter;
+  color: rgb(167, 167, 167);
+  font-size: 15px;
+}
+
+@media (max-width: 750px) {
+  .faq-wrap {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 65px auto;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 750px) {
+  .faq-wrap {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 90px auto;
+  }
+}

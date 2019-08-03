@@ -1,0 +1,8 @@
+.thanks-thank-you-text {
+  color: white;
+  font-size: 21px;
+  margin-top: 80px;
+  padding-left: 20px;
+  height: calc(100vh - 70px - 300px);
+  font-weight: normal;
+}
