@@ -3,9 +3,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 420px;
-  width: 100%;
+  width: 1000px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 85px;
   z-index: -1;
 }
 
@@ -72,6 +72,7 @@
 
   .blog__hero {
     width: 100%;
+    margin-top: 70px;
     height: 280px;
   }
 

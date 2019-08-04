@@ -133,10 +133,6 @@
     margin: 0 auto;
   }
 
-  .story-wrapper {
-    margin-top: 45px;
-  }
-
   .our-story-text {
     width: calc(100% - 40px);
     margin-left: 20px;
@@ -204,5 +200,11 @@
   .going-forward-image {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .story-wrapper {
+    margin-top: 45px;
   }
 }
