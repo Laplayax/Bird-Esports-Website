@@ -63,26 +63,29 @@ const About = () => (
                 alt="communication"
                 className="about-values-icon"
               />
-              <div className="value-subtitle">Communication</div>
+              <div className="value-subtitle">Transparency</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                As the staff of the organization, we shall have no shame in our
+                shortcomings, and will try to keep you as informed as possible
+                about what is going on. We are all human after all.
               </div>
             </Col>
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
               <img src={Fun} alt="Fun" className="about-values-icon" />
               <div className="value-subtitle">Fun</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                Being able to enjoy yourself is an important part of being able
+                to improve at a certain discipline.
               </div>
             </Col>
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
               <img src={Trust} alt="Trust" className="about-values-icon" />
               <div className="value-subtitle">Trust</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                In order to truly feel comfortable in a space and with the
+                people you are working with, we need to establish a foundation
+                of trust. Trust must be earned, so let’s make sure we can be
+                honest in our cooperation.
               </div>
             </Col>
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
@@ -91,10 +94,11 @@ const About = () => (
                 alt="DriveChange"
                 className="about-values-icon"
               />
-              <div className="value-subtitle">Drive Change</div>
+              <div className="value-subtitle">Inspiration</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                The known can only get us as far as other people have been
+                before. We are willing to step into the unknown to get even
+                further.
               </div>
             </Col>
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
@@ -103,10 +107,11 @@ const About = () => (
                 alt="Collaboration"
                 className="about-values-icon"
               />
-              <div className="value-subtitle">Collaboration</div>
+              <div className="value-subtitle">Personal</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                We believe in the individuality of each player and will make
+                sure to address it where necessary. We will not force anyone to
+                do what does not fit their style.
               </div>
             </Col>
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
@@ -117,8 +122,9 @@ const About = () => (
               />
               <div className="value-subtitle">Community</div>
               <div className="about-table-item-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It
+                A respectful togetherness is an important part of our identity,
+                and we will do our best to uphold it through all conflicts and
+                hardships.
               </div>
             </Col>
           </Row>
