@@ -61,7 +61,7 @@ const About = () => (
               <img
                 src={Communication}
                 alt="Transparency"
-                className="about-values-icon"
+                className="about-values-icon about-values-icon-transparency"
               />
               <div className="value-subtitle">Transparency</div>
               <div className="about-table-item-text">
@@ -118,7 +118,7 @@ const About = () => (
               <img
                 src={Community}
                 alt="Community"
-                className="about-values-icon"
+                className="about-values-icon about-values-icon-community"
               />
               <div className="value-subtitle">Community</div>
               <div className="about-table-item-text">
