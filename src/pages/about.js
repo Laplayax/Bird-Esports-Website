@@ -151,7 +151,7 @@ const About = () => (
                 with your new wings!
               </p>
               <p>
-                If this sounds like you would fit in, why don't you cotact us
+                If this sounds like you would fit in, why don't you contact us
                 about joining? Click the link below and leave us some
                 information about you and we will be in contact soon.
               </p>
