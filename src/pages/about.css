@@ -162,6 +162,10 @@
     margin-top: 20px;
   }
 
+  .about-table-item-text {
+    padding-right: 0px;
+  }
+
   .going-forward-wrapper {
     margin-top: 50px;
   }
