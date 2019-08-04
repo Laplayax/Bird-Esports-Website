@@ -61,6 +61,7 @@
   color: rgb(167, 167, 167);
   font-size: 15px;
   width: 250px;
+  padding-right: 5px;
 }
 
 .value-subtitle {
