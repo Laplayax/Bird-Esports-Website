@@ -1,12 +1,12 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 
-import logo from "../../images/logo.svg"
-import twitter from "../../images/Twitter.svg"
-import youtube from "../../images/Youtube.svg"
-import twitch from "../../images/Twitch.svg"
+import logo from '../../images/logo.svg';
+import twitter from '../../images/Twitter.svg';
+import youtube from '../../images/Youtube.svg';
+import twitch from '../../images/Twitch.svg';
 
-import "./footer.css"
+import './footer.css';
 
 class Footer extends Component {
   render() {
@@ -46,21 +46,33 @@ class Footer extends Component {
                   </Link>
                 </th>
                 <th>
-                  <a href="https://twitter.com/tbelol" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/tbelol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="footer_social"
                       src={twitter}
                       alt="Twitter"
                     />
                   </a>
-                  <a href="https://www.youtube.com/channel/UCrvUBaBwWrsdLmY06qtj1Wg/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.youtube.com/channel/UCrvUBaBwWrsdLmY06qtj1Wg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="footer_social"
                       src={youtube}
                       alt="Youtube"
                     />
                   </a>
-                  <a href="https://twitch.com/tbelol" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitch.com/tbelol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img className="footer_social" src={twitch} alt="Twitch" />
                   </a>
                 </th>
@@ -86,21 +98,33 @@ class Footer extends Component {
               </Link>
             </div>
             <div className="footer-mobile-logo-wrap">
-              <a href="https://twitter.com/tbelol" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://twitter.com/tbelol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   className="footer_social-mobile"
                   src={twitter}
                   alt="Twitter"
                 />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.youtube.com/channel/UCrvUBaBwWrsdLmY06qtj1Wg/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   className="footer_social-mobile"
                   src={youtube}
                   alt="Youtube"
                 />
               </a>
-              <a href="https://twitch.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://twitch.com/tbelol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   className="footer_social-mobile"
                   src={twitch}
@@ -111,8 +135,8 @@ class Footer extends Component {
           </div>
         </div>
       </>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;
