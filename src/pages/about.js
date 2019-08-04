@@ -60,7 +60,7 @@ const About = () => (
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
               <img
                 src={Communication}
-                alt="communication"
+                alt="Transparency"
                 className="about-values-icon"
               />
               <div className="value-subtitle">Transparency</div>
@@ -91,7 +91,7 @@ const About = () => (
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
               <img
                 src={DriveChange}
-                alt="DriveChange"
+                alt="Inspiration"
                 className="about-values-icon"
               />
               <div className="value-subtitle">Inspiration</div>
@@ -104,7 +104,7 @@ const About = () => (
             <Col xs={12} sm={6} md={4} xl={4} className="about-table-head">
               <img
                 src={Collaboration}
-                alt="Collaboration"
+                alt="Personal"
                 className="about-values-icon"
               />
               <div className="value-subtitle">Personal</div>
