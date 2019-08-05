@@ -90,7 +90,7 @@ class Social extends Component {
               transparent
               options={{
                 width: '500',
-                height: '395'
+                height: '564'
               }}
             />
           </div>

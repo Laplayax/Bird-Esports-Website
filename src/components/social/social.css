@@ -6,7 +6,7 @@
 .social-twitter-wrap {
   background-color: rgb(18, 25, 38, 0.6);
   width: 325px;
-  height: 430px;
+  height: 600px;
   text-align: center;
   border-radius: 5px;
   vertical-align: bottom;
@@ -25,7 +25,7 @@
 .social-twitch-wrap {
   background-color: rgb(18, 25, 38, 0.6);
   width: 655px;
-  height: 430px;
+  height: 600px;
   text-align: center;
   border-radius: 5px;
   display: inline-block;
@@ -66,29 +66,31 @@
 
 @media (max-width: 1000px) {
   .social-wrap {
-    width: calc(100% - 20px);
+    width: 100%;
   }
 
   .social-twitter-wrap {
     display: block;
-    width: 90%;
-    margin-left: 5%;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
   }
 
   .social-twitch-wrap {
     display: block;
     margin-top: 20px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
     height: 500px;
     padding-bottom: 10px;
   }
 
   .social-wrap-bottom {
-    width: calc(90% - 20px);
-    margin-left: calc(5% + 10px);
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 550px;
     display: block;
     padding-bottom: 20px;
