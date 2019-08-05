@@ -72,25 +72,19 @@ class Social extends Component {
       <>
         <div className="social-wrap">
           <div className="social-twitter-wrap">
-            <a href="www.twitter.com">
-              <img
-                src={TwitterIcon}
-                alt="Twitter"
-                className="social-twitter-icon"
-              />
-            </a>
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName="tbelol"
               theme="dark"
               linkColor="#FFF684"
               noFooter
+              noBorders
               noHeader
               noScrollbar
               transparent
               options={{
                 width: '500',
-                height: '564'
+                height: '600'
               }}
             />
           </div>
