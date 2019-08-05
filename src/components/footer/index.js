@@ -69,7 +69,7 @@ class Footer extends Component {
                     />
                   </a>
                   <a
-                    href="https://twitch.com/tbelol"
+                    href="https://www.twitch.tv/birdesports"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -121,7 +121,7 @@ class Footer extends Component {
                 />
               </a>
               <a
-                href="https://twitch.com/tbelol"
+                href="https://www.twitch.tv/birdesports"
                 target="_blank"
                 rel="noopener noreferrer"
               >
