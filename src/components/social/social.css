@@ -71,26 +71,26 @@
 
   .social-twitter-wrap {
     display: block;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    margin-right: 20px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
   }
 
   .social-twitch-wrap {
     display: block;
     margin-top: 20px;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    margin-right: 20px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
     height: 500px;
     padding-bottom: 10px;
   }
 
   .social-wrap-bottom {
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    margin-right: 20px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 550px;
     display: block;
     padding-bottom: 20px;
