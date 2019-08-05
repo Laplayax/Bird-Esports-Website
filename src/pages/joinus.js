@@ -12,7 +12,10 @@ import './joinus.css';
 
 const JoinUs = () => (
   <Layout>
-    <SEO title="Join Us" description="Contact TBE" />
+    <SEO
+      title="Join Us"
+      description="Information about joining Bird Esports."
+    />
     <Background />
     <Nav />
     <div className="contact-wrap">

@@ -11,7 +11,10 @@ class Privacy extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Privacy Policy" description="Contact TBE" />
+        <SEO
+          title="Privacy Policy"
+          description="Outline of our Privacy Policy."
+        />
         <Background />
         <Nav />
         <div className="privacy-container">

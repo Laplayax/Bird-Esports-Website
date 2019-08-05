@@ -21,7 +21,12 @@ import './about.css';
 
 const About = () => (
   <Layout>
-    <SEO title="About" description="Description of the TBE TEAM" />
+    <SEO
+      title="About"
+      description="Bird Esports (short “TBE”) is an esports organization focused on
+              the upbringing and introduction of players and teams into the
+              amateur and professional League of Legends scene."
+    />
     <Background />
     <Nav />
     <div className="about-wrapper">

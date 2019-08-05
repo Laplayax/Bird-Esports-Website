@@ -12,7 +12,10 @@ class FAQ extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Help & FAQ" description="Contact TBE" />
+        <SEO
+          title="Help & FAQ"
+          description="Help and FAQ Section with the most frequently asked questions."
+        />
         <Background />
         <Nav />
         <div className="faq-wrap">

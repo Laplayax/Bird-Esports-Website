@@ -12,7 +12,10 @@ class Contact extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Contact" description="Contact TBE" />
+        <SEO
+          title="Contact"
+          description="If you have a question of any kind, shoot us an email at hello@bird.gg or check out the FAQ Page."
+        />
         <Background />
         <Nav />
         <div className="contact-us-wrap">

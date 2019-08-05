@@ -13,7 +13,10 @@ class Articles extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Articles" description="Description of the TBE TEAM" />
+        <SEO
+          title="Articles"
+          description="Here we regularly publish articles for your reading pleasure."
+        />
         <Background />
         <Nav />
         <Featured />

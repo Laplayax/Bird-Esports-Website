@@ -9,7 +9,7 @@ import './sent.css';
 
 const Sent = () => (
   <Layout>
-    <SEO title="Sent" description="Contact TBE" />
+    <SEO title="Sent" description="Sent the form" />
     <Background />
     <Nav />
     <div className="contact__header"></div>
