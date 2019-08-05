@@ -245,7 +245,7 @@
   position: absolute;
   height: 1px;
   width: calc(100% - 80px);
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200, 0.3);
   margin-top: 44px;
   margin-left: 40px;
 }
