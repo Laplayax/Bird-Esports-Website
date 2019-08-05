@@ -6,7 +6,8 @@ module.exports = {
   siteMetadata: {
     title: `Bird Esports`,
     description: `Bird Esports is a new League of Legends organization focused on the upbringing of ambitious players towards the amateur scene.`,
-    author: `@gatsbyjs`
+    author: `@gatsbyjs`,
+    siteUrl: `https://www.bird.gg`
   },
   plugins: [
     `gatsby-plugin-sitemap`,
