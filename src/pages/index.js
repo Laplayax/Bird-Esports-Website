@@ -8,12 +8,12 @@ import Social from '../components/social/index.js';
 import Background from '../components/background';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import SeoHome from '../components/seoHome';
 
 const IndexPage = () => (
   <Layout>
-    <SEO
-      title="Home"
+    <SeoHome
+      title="Bird Esports"
       description="Bird Esports is an esports organization focused on the upbringing of players towards the LoL amateur scene."
     />
     <Background />
