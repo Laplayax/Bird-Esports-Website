@@ -10,44 +10,7 @@ module.exports = {
     siteUrl: `https://www.bird.gg`
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [],
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-  
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-        }`,
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            if (edge.node.path == '') {
-              return {
-                url: site.siteMetadata.siteUrl,
-                changefreq: `daily`,
-                priority: 1
-              };
-            } else {
-              return {
-                url: site.siteMetadata.siteUrl + edge.node.path,
-                changefreq: `daily`,
-                priority: 0.7
-              };
-            }
-          })
-      }
-    },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     {
