@@ -13,7 +13,7 @@ import SEO from '../components/seo';
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Bird Esports"
+      title="Home"
       description="Bird Esports is an esports organization focused on the upbringing of players towards the LoL amateur scene."
     />
     <Background />
