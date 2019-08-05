@@ -89,7 +89,11 @@ class Social extends Component {
             />
           </div>
           <div className="social-twitch-wrap">
-            <a href="www.twitch.com">
+            <a
+              href="https://www.twitch.tv/birdesports"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={TwitchIcon}
                 alt="Twitch"
@@ -109,7 +113,11 @@ class Social extends Component {
         </div>
 
         <div className="social-wrap-bottom">
-          <a href="www.youtube.com">
+          <a
+            href="https://www.youtube.com/channel/UCrvUBaBwWrsdLmY06qtj1Wg/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={YoutubeIcon}
               alt="Youtube"
