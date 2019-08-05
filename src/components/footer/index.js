@@ -17,7 +17,7 @@ class Footer extends Component {
             <tbody>
               <tr className="footer_header">
                 <th className="footer_logo_box footer_table_head">
-                  <img className="footer_logo" src={logo} alt="TBE Logo" />
+                  <img className="footer_logo" src={logo}/>
                 </th>
                 <th className="footer_team_box footer_table_head">Team</th>
                 <th className="footer_table_head">Further Information</th>
@@ -81,7 +81,7 @@ class Footer extends Component {
           </table>
 
           <div className="footer-mobile">
-            <img className="footer_logo-mobile" src={logo} alt="TBE Logo" />
+            <img className="footer_logo-mobile" src={logo}/>
             <div className="footer-copyright-mobile">Bird Esports ©2019</div>
             <div className="footer-mobile-link-wrap">
               <Link className="footer-item-link-mobile" to="/about">

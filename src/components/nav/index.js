@@ -60,7 +60,7 @@ class Nav extends Component {
             </div>
 
             <Link href="/">
-              <img src={logo} alt="TBE Logo" className="nav_item--logo" />
+              <img src={logo} className="nav_item--logo" />
             </Link>
 
             <div className="nav_item_box--right nav_item_box">
