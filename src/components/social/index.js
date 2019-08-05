@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-// import TwitchEmbedVideo from 'react-twitch-embed-video';
+import TwitchEmbedVideo from 'react-twitch-embed-video';
 import YouTube from 'react-youtube';
 
 import TwitterIcon from '../../images/Twitter_blue.svg';
@@ -103,13 +103,13 @@ class Social extends Component {
               />
             </a>
             <div className="social-twitch-stream">
-              {/* <TwitchEmbedVideo
+              <TwitchEmbedVideo
                 channel="tbelol"
                 theme="dark"
                 layout="video"
-                height={this.state.heightTwitch}
-                width={this.state.widthTwitch}
-              /> */}
+                height="349"
+                width="620"
+              />
             </div>
           </div>
         </div>
