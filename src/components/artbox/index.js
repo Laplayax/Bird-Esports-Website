@@ -32,12 +32,14 @@ export default () => (
         <div className="artbox_container">
           {data.allContentfulArticle.edges.map(edge => (
             <div className="artbox-cut">
-              <img
+              <div
                 key={edge.node.id}
                 className="artbox_item"
-                src={edge.node.featuredImage.fluid.src}
+                style={{
+                  backgroundImage: `url(${edge.node.featuredImage.fluid.src})`
+                }}
                 onClick={() => navigate(`/articles/${edge.node.slug}`)}
-              ></img>
+              ></div>
             </div>
           ))}
         </div>

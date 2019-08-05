@@ -24,21 +24,16 @@
   scroll-snap-type: x proximity;
 }
 
-.artbox-cut {
-  margin-top: 6px;
+.artbox_item {
   width: 250px;
   height: 120px;
   border-radius: 10px;
-  overflow: hidden;
-}
-
-.artbox_item {
-  width: 250px;
   cursor: pointer;
-  border: 0;
-  background: rgb(24, 41, 55);
-  color: white;
-  text-align: center;
+  margin-top: 6px;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* .artbox_item:hover {
